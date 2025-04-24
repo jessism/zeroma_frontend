@@ -1,0 +1,244 @@
+/* Hero Section */
+.hero {
+  height: 80vh;
+  background-color: var(--primary-color);
+  background-image: url('../../public/images/hero-socks.jpg');
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  align-items: center;
+  color: var(--white);
+  position: relative;
+}
+
+.hero::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
+.hero-content {
+  max-width: 800px;
+  margin: 0;
+  padding: 0 20px;
+  position: relative;
+  z-index: 1;
+  text-align: left;
+  padding-left: 10%;
+}
+
+.hero-content h2 {
+  font-size: 6.5rem;
+  line-height: 0.9;
+  font-weight: 800;
+  text-transform: uppercase;
+  letter-spacing: -2px;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  background-color: var(--white);
+  color: var(--primary-color);
+  padding: 8px 22px;
+  font-size: 0.8rem;
+  font-weight: 600;
+  border-radius: 30px;
+  display: inline-flex;
+  align-items: center;
+}
+
+.cta-button:hover {
+  background-color: var(--accent-color);
+  color: var(--white);
+}
+
+/* Benefits Section */
+.benefits {
+  padding: 80px 0;
+  background-color: var(--white);
+  text-align: center;
+}
+
+.benefits h2 {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.benefits-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.benefit {
+  padding: 30px;
+  transition: transform 0.3s ease;
+}
+
+.benefit:hover {
+  transform: translateY(-10px);
+}
+
+.benefit i {
+  font-size: 3rem;
+  margin-bottom: 20px;
+  color: var(--accent-color);
+}
+
+.benefit h3 {
+  font-size: 1.5rem;
+  margin-bottom: 15px;
+}
+
+/* New Arrivals Section */
+.new-arrivals {
+  padding: 80px 0;
+  background-color: var(--light-color);
+  text-align: center;
+}
+
+.new-arrivals h2 {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.product-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 30px;
+  margin-bottom: 40px;
+}
+
+.product {
+  background-color: var(--white);
+  padding: 20px;
+  transition: transform 0.3s ease;
+}
+
+.product:hover {
+  transform: translateY(-10px);
+}
+
+.product img {
+  width: 100%;
+  height: 300px;
+  object-fit: cover;
+  margin-bottom: 15px;
+}
+
+.product h3 {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.product p {
+  font-weight: 600;
+}
+
+.shop-button {
+  background-color: var(--primary-color);
+  color: var(--white);
+  padding: 15px 30px;
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  border-radius: 0;
+}
+
+.shop-button:hover {
+  background-color: var(--accent-color);
+}
+
+/* Pack Discount Section */
+.pack-discount {
+  padding: 80px 0;
+  background-color: var(--primary-color);
+  color: var(--white);
+  text-align: center;
+}
+
+.pack-discount h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.pack-discount p {
+  font-size: 1.5rem;
+  margin-bottom: 30px;
+}
+
+.pack-discount .shop-button {
+  background-color: var(--white);
+  color: var(--primary-color);
+}
+
+.pack-discount .shop-button:hover {
+  background-color: var(--accent-color);
+  color: var(--white);
+}
+
+/* Made From Coffee Section */
+.made-from-coffee {
+  padding: 80px 0;
+  background-color: var(--white);
+}
+
+.made-from-coffee h2 {
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.coffee-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 50px;
+  align-items: center;
+}
+
+.coffee-text p {
+  font-size: 1.2rem;
+  margin-bottom: 30px;
+}
+
+.coffee-text ul {
+  list-style-position: inside;
+}
+
+.coffee-text ul li {
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+@media (max-width: 992px) {
+  .hero-content h2 {
+    font-size: 4.5rem;
+  }
+
+  .coffee-content {
+    grid-template-columns: 1fr;
+  }
+
+  .coffee-image {
+    order: -1;
+  }
+}
+
+@media (max-width: 768px) {
+  .hero-content h2 {
+    font-size: 3.5rem;
+  }
+} 
