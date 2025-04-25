@@ -24,44 +24,44 @@ const HomePage = () => {
             <div className="bestseller-product">
               <Link to="/product/1">
                 <div className="product-image">
-                  <img src="/images/summit-runner-shoe.jpg" alt="Summit Runner Shoe" />
+                  <img src="/images/crew-socks.jpg" alt="Crew Socks" />
                 </div>
                 <div className="product-info">
-                  <h3>SUMMIT RUNNER SHOE</h3>
-                  <p className="price">$120</p>
+                  <h3>CREW SOCKS</h3>
+                  <p className="price">$20</p>
                 </div>
               </Link>
             </div>
             <div className="bestseller-product">
               <Link to="/product/2">
                 <div className="product-image">
-                  <img src="/images/trailblazer-trek-shoe.jpg" alt="Trailblazer Trek Shoe" />
+                  <img src="/images/low-key-socks.jpg" alt="Low Key Socks" />
                 </div>
                 <div className="product-info">
-                  <h3>TRAILBLAZER TREK SHOE</h3>
-                  <p className="price">$130</p>
+                  <h3>LOW KEY SOCKS</h3>
+                  <p className="price">$15</p>
                 </div>
               </Link>
             </div>
             <div className="bestseller-product">
               <Link to="/product/3">
                 <div className="product-image">
-                  <img src="/images/explorer-shoe.jpg" alt="Explorer Shoe" />
+                  <img src="/images/no-show-socks.jpg" alt="No Show Socks" />
                 </div>
                 <div className="product-info">
-                  <h3>EXPLORER SHOE</h3>
-                  <p className="price">$100</p>
+                  <h3>NO SHOW SOCKS</h3>
+                  <p className="price">$12</p>
                 </div>
               </Link>
             </div>
             <div className="bestseller-product">
               <Link to="/product/4">
                 <div className="product-image">
-                  <img src="/images/adventure-apex-shoe.jpg" alt="Adventure Apex Shoe" />
+                  <img src="/images/fun-socks.jpg" alt="Fun Socks" />
                 </div>
                 <div className="product-info">
-                  <h3>ADVENTURE APEX SHOE</h3>
-                  <p className="price">$110</p>
+                  <h3>FUN SOCKS</h3>
+                  <p className="price">$18</p>
                 </div>
               </Link>
             </div>
