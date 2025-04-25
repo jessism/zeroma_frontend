@@ -2,6 +2,12 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './HomePage.css';
 
+// Import images
+import crewSocks from '../../public/images/crew-socks.png';
+import lowKeySocks from '../../public/images/low-key-socks.png';
+import noShowSocks from '../../public/images/no-show-socks.png';
+import funSocks from '../../public/images/fun-socks.png';
+
 const HomePage = () => {
   return (
     <div className="home-page">
