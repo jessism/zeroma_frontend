@@ -13,6 +13,62 @@ const HomePage = () => {
         </div>
       </section>
 
+      {/* Bestsellers Section */}
+      <section className="bestsellers">
+        <div className="container">
+          <div className="section-header">
+            <h2>Our bestsellers</h2>
+            <Link to="/products" className="more-link">MORE</Link>
+          </div>
+          <div className="bestsellers-grid">
+            <div className="bestseller-product">
+              <Link to="/product/1">
+                <div className="product-image">
+                  <img src="/images/summit-runner-shoe.jpg" alt="Summit Runner Shoe" />
+                </div>
+                <div className="product-info">
+                  <h3>SUMMIT RUNNER SHOE</h3>
+                  <p className="price">$120</p>
+                </div>
+              </Link>
+            </div>
+            <div className="bestseller-product">
+              <Link to="/product/2">
+                <div className="product-image">
+                  <img src="/images/trailblazer-trek-shoe.jpg" alt="Trailblazer Trek Shoe" />
+                </div>
+                <div className="product-info">
+                  <h3>TRAILBLAZER TREK SHOE</h3>
+                  <p className="price">$130</p>
+                </div>
+              </Link>
+            </div>
+            <div className="bestseller-product">
+              <Link to="/product/3">
+                <div className="product-image">
+                  <img src="/images/explorer-shoe.jpg" alt="Explorer Shoe" />
+                </div>
+                <div className="product-info">
+                  <h3>EXPLORER SHOE</h3>
+                  <p className="price">$100</p>
+                </div>
+              </Link>
+            </div>
+            <div className="bestseller-product">
+              <Link to="/product/4">
+                <div className="product-image">
+                  <img src="/images/adventure-apex-shoe.jpg" alt="Adventure Apex Shoe" />
+                </div>
+                <div className="product-info">
+                  <h3>ADVENTURE APEX SHOE</h3>
+                  <p className="price">$110</p>
+                </div>
+              </Link>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Benefits Section */}
       <section className="benefits">
         <div className="container">
