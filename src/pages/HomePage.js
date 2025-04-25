@@ -24,7 +24,7 @@ const HomePage = () => {
             <div className="bestseller-product">
               <Link to="/product/1">
                 <div className="product-image">
-                  <img src="/images/crew-socks.jpg" alt="Crew Socks" />
+                  <img src="/images/crew-socks.png" alt="Crew Socks" />
                 </div>
                 <div className="product-info">
                   <h3>CREW SOCKS</h3>
@@ -35,7 +35,7 @@ const HomePage = () => {
             <div className="bestseller-product">
               <Link to="/product/2">
                 <div className="product-image">
-                  <img src="/images/low-key-socks.jpg" alt="Low Key Socks" />
+                  <img src="/images/low-key-socks.png" alt="Low Key Socks" />
                 </div>
                 <div className="product-info">
                   <h3>LOW KEY SOCKS</h3>
@@ -46,7 +46,7 @@ const HomePage = () => {
             <div className="bestseller-product">
               <Link to="/product/3">
                 <div className="product-image">
-                  <img src="/images/no-show-socks.jpg" alt="No Show Socks" />
+                  <img src="/images/no-show-socks.png" alt="No Show Socks" />
                 </div>
                 <div className="product-info">
                   <h3>NO SHOW SOCKS</h3>
@@ -57,7 +57,7 @@ const HomePage = () => {
             <div className="bestseller-product">
               <Link to="/product/4">
                 <div className="product-image">
-                  <img src="/images/fun-socks.jpg" alt="Fun Socks" />
+                  <img src="/images/fun-socks.png" alt="Fun Socks" />
                 </div>
                 <div className="product-info">
                   <h3>FUN SOCKS</h3>

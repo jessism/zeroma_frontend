@@ -2,7 +2,7 @@
 .hero {
   height: 80vh;
   background-color: var(--primary-color);
-  background-image: url('../../public/images/hero-socks.jpg');
+  background-image: url('/images/hero-socks.jpg');
   background-size: cover;
   background-position: center;
   display: flex;
