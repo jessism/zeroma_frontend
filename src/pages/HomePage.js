@@ -2,12 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import './HomePage.css';
 
-// Import images
-import crewSocks from '../../public/images/crew-socks.png';
-import lowKeySocks from '../../public/images/low-key-socks.png';
-import noShowSocks from '../../public/images/no-show-socks.png';
-import funSocks from '../../public/images/fun-socks.png';
-
 const HomePage = () => {
   return (
     <div className="home-page">
@@ -30,7 +24,7 @@ const HomePage = () => {
             <div className="bestseller-product">
               <Link to="/product/1">
                 <div className="product-image">
-                  <img src="/images/crew-socks.png" alt="Crew Socks" />
+                  <img src={`${process.env.PUBLIC_URL}/images/crew-socks.png`} alt="Crew Socks" />
                 </div>
                 <div className="product-info">
                   <h3>CREW SOCKS</h3>
@@ -41,7 +35,7 @@ const HomePage = () => {
             <div className="bestseller-product">
               <Link to="/product/2">
                 <div className="product-image">
-                  <img src="/images/low-key-socks.png" alt="Low Key Socks" />
+                  <img src={`${process.env.PUBLIC_URL}/images/low-key-socks.png`} alt="Low Key Socks" />
                 </div>
                 <div className="product-info">
                   <h3>LOW KEY SOCKS</h3>
@@ -52,7 +46,7 @@ const HomePage = () => {
             <div className="bestseller-product">
               <Link to="/product/3">
                 <div className="product-image">
-                  <img src="/images/no-show-socks.png" alt="No Show Socks" />
+                  <img src={`${process.env.PUBLIC_URL}/images/no-show-socks.png`} alt="No Show Socks" />
                 </div>
                 <div className="product-info">
                   <h3>NO SHOW SOCKS</h3>
@@ -63,7 +57,7 @@ const HomePage = () => {
             <div className="bestseller-product">
               <Link to="/product/4">
                 <div className="product-image">
-                  <img src="/images/fun-socks.png" alt="Fun Socks" />
+                  <img src={`${process.env.PUBLIC_URL}/images/fun-socks.png`} alt="Fun Socks" />
                 </div>
                 <div className="product-info">
                   <h3>FUN SOCKS</h3>
@@ -106,21 +100,21 @@ const HomePage = () => {
           <div className="product-grid">
             <div className="product">
               <Link to="/product/1">
-                <img src="/images/tech-pro-ankle.jpg" alt="Tech Pro Ankle" />
+                <img src={`${process.env.PUBLIC_URL}/images/tech-pro-ankle.jpg`} alt="Tech Pro Ankle" />
                 <h3>Tech Pro Ankle</h3>
                 <p>$24.99</p>
               </Link>
             </div>
             <div className="product">
               <Link to="/product/2">
-                <img src="/images/daily-comfort-crew.jpg" alt="Daily Comfort Crew" />
+                <img src={`${process.env.PUBLIC_URL}/images/daily-comfort-crew.jpg`} alt="Daily Comfort Crew" />
                 <h3>Daily Comfort Crew</h3>
                 <p>$22.99</p>
               </Link>
             </div>
             <div className="product">
               <Link to="/product/3">
-                <img src="/images/performance-no-show.jpg" alt="Performance No-Show" />
+                <img src={`${process.env.PUBLIC_URL}/images/performance-no-show.jpg`} alt="Performance No-Show" />
                 <h3>Performance No-Show</h3>
                 <p>$19.99</p>
               </Link>
@@ -145,7 +139,7 @@ const HomePage = () => {
           <h2>MADE FROM COFFEE</h2>
           <div className="coffee-content">
             <div className="coffee-image">
-              <img src="/images/coffee-fabric.jpg" alt="Coffee Fabric" />
+              <img src={`${process.env.PUBLIC_URL}/images/coffee-fabric.jpg`} alt="Coffee Fabric" />
             </div>
             <div className="coffee-text">
               <p>Fabric technology hasn't changed for decades. But we are changing it for good. Maximize your comfort with our innovative fabrics.</p>
