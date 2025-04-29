@@ -3,17 +3,17 @@
   "name": "Zeroma - Socks Made from Coffee",
   "icons": [
     {
-      "src": "images/Zaroma-favicon.png",
+      "src": "images/Zeroma-favicon2.png",
       "sizes": "64x64 32x32 24x24 16x16",
       "type": "image/png"
     },
     {
-      "src": "images/Zaroma-favicon.png",
+      "src": "images/Zeroma-favicon2.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "images/Zaroma-favicon.png",
+      "src": "images/Zeroma-favicon2.png",
       "type": "image/png",
       "sizes": "512x512"
     }
