@@ -6,6 +6,15 @@
   --light-color: #f8f8f8;
   --white: #fff;
   --font-main: 'Helvetica Neue', Arial, sans-serif;
+  scroll-behavior: auto; /* Ensure native scrolling isn't overridden */
+}
+
+html, body {
+  scroll-behavior: auto;
+  overscroll-behavior-y: none;
+  height: 100%;
+  position: relative;
+  overflow-x: hidden;
 }
 
 * {
